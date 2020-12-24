@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{% static 'cnn/cnn.css' %}">
+</head>
+<body>
+	<h1>Let's edit stuff!</h1>
+	<h2>First let's do it for the world page!</h2>
+	<h2>We should be having all the stories of the world category</h2>
+	<h3>World Category:</h3>
+	{% for article in articles %}
+		<div>
+			<div id="listing_articles">{{article.id}}. {{article.title}}</div>
+			<div id="option" onclick="setMainStory({{article.id}})">set as category main</div>
+		</div>
+	{% endfor %}
+	<script type="text/javascript" src="{% static 'cnn/cnn.js' %}"></script>
+</body>
+</html>

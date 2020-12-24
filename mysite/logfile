@@ -1,0 +1,13 @@
+2020-06-28 20:26:02.665 PKT [5566] LOG:  starting PostgreSQL 12.3 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 10.1.0, 64-bit
+2020-06-28 20:26:02.667 PKT [5566] LOG:  listening on IPv6 address "::1", port 5432
+2020-06-28 20:26:02.668 PKT [5566] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-06-28 20:26:02.698 PKT [5566] FATAL:  could not create lock file "/run/postgresql/.s.PGSQL.5432.lock": No such file or directory
+2020-06-28 20:26:02.699 PKT [5566] LOG:  database system is shut down
+2020-06-28 20:41:14.394 PKT [5888] FATAL:  data directory "/var/lib/postgres/data" has invalid permissions
+2020-06-28 20:41:14.394 PKT [5888] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).
+2020-06-28 20:41:33.254 PKT [5902] FATAL:  data directory "/var/lib/postgres/data" has invalid permissions
+2020-06-28 20:41:33.254 PKT [5902] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).
+2020-06-28 20:44:00.215 PKT [5962] FATAL:  data directory "/var/lib/postgres/data" has invalid permissions
+2020-06-28 20:44:00.215 PKT [5962] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).
+2020-06-29 00:16:00.657 PKT [10794] FATAL:  data directory "/var/lib/postgres/data" has invalid permissions
+2020-06-29 00:16:00.657 PKT [10794] DETAIL:  Permissions should be u=rwx (0700) or u=rwx,g=rx (0750).

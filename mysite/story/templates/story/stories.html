@@ -1,0 +1,9 @@
+{% extends 'story/base.html' %}
+{% block content %}
+	<h1>Stories:</h1>
+	<ol>
+	{% for story in stories_T %}
+		<li>{{story.title}}</li>
+	{% endfor %}
+	</ol>
+{% endblock %}

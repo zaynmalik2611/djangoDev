@@ -1,0 +1,32 @@
+{% extends 'cnn/home.html' %}
+{% block nav %}
+	<div>
+		<div id="ff_story">
+			<div id="ff_title">
+				<a href="story/{{article.id}}">{{featured.0.title}}</a>
+			</div>
+			<div>
+				<a href="story/{{article.id}}">
+					<img id='ff_image' src="{{featured.0.image.url}}">
+				</a>
+			</div>
+			<div id="ff_desc"><strong>{{featured.0.desc}}</strong></div>
+		</div>
+		<div id="ff_story2">
+			<a href="story/{{article.id}}">
+				<img id='ff_image2' src="{{featured.1.image.url}}">
+			</a>
+			<div id="ff_title2">
+			<a href="story/{{article.id}}">{{featured.1.title}}</a>
+			</div>
+		</div>
+		<div id="ff_story3">
+			<a href="story/{{article.id}}">
+				<img id='ff_image3' src="{{featured.2.image.url}}">
+			</a>
+			<div id="ff_title3">
+			<a href="story/{{article.id}}">{{featured.2.title}}</a>
+			</div>
+		</div>
+	</div>
+{% endblock %}

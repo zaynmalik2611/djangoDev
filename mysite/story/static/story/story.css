@@ -1,0 +1,53 @@
+@import 
+url(https://fonts.googleapis.com/earlyaccess/notonaskharabic.css);
+#story_div{
+	margin-left: 13px;
+}
+
+#recents_div{
+	margin-left: 13px;
+}
+
+.test_div{
+	background-color: black;
+	width: 700px;
+}
+
+#title_div{
+	font-family: 'Noto Naskh Arabic';
+	width: 750px;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+#main_image_style{
+	width: 720px;
+	height: 450px;
+}
+
+#content_div{
+	font-size: 25px;
+	font-family: 'Noto Naskh Arabic';
+	width: 720px;
+}
+
+#recent_image_style{
+	float: right;
+	height: 65px;
+	width: 95px;
+}
+
+#recents{
+	font-family: 'Noto Naskh Arabic';
+	width: 350px;
+	margin: 5px;
+	border-bottom: 2px solid lightgrey;
+	padding-bottom: 10px;
+	padding-top: 15px;
+	overflow: hidden;
+}
+
+#recents_nav{
+	color: black;
+	text-decoration: none;
+}

@@ -1,0 +1,23 @@
+{% extends 'story/base.html' %}
+{% block content %}
+	<div id="story_div">
+		<img id="main_image_style" src="{{story.image.url}}">
+		<div id="title_div">
+			{{story.title}}
+		</div>
+		<p><b>Author:</b>  {{story.author}}</p>
+		<p>Date Time: {{story.date_posted | date:"F d, Y"}}
+		<div id="content_div">
+			<p>{{story.content}}</p>
+		</div>
+	</div>
+	<div id="recents_div">
+		<h2>Recent Posts:</h2>
+		{% for article in recent_articles %}
+		<div id="recents">
+			<a id="recents_nav" href="{{article.id}}">{{article.title}}</a>
+			<img id="recent_image_style" src="{{article.image.url}}">
+		</div>
+		{% endfor %}
+	</div>
+{% endblock %}
